@@ -1,0 +1,10 @@
+Easy TOAST
+
+In your app-level build.gradle, add compile "org.jetbrains.anko:anko-common:0.8.3"
+
+Syntax:
+toast("Hi there!")
+toast(R.string.message)
+longToast("Wow, such a duration")
+
+Android Studio should auto generate but you can "import org.jetbrains.anko.toast" and/or "import org.jetbrains.anko.longToast" to your Activity.
